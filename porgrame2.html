@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="porg.css">
+  <title>التخصصات</title>
+</head>
+
+<body>
+
+  <body>
+
+    <header>
+      <div class="logo">
+        <img src="./صور4/الشعار.jpg" alt="">
+      </div>
+      <nav>
+        <ul class="mean">
+          <li><a href="../index.html"  target="_blank">الصحفحة الرئيسة</a></li>
+          <li><a href="./porgrame2.html" target="_blank">التخصصات</a></li>
+          <li><a href="./tick tok/شكل صفحة التيك توك/index.html"  target="_blank">التيك توك</a></li>
+          <li><a href="../index.html"  target="_blank"> الاقسمام </a></li>
+        </ul>
+        <img src="./صور4/1.png" id="toggle" alt="">
+      </nav>
+    </header>
+
+
+    <section class="h">
+      <h2 class="title"> التخصصات</h2>
+      <div class="content">
+        <div class="card">
+          <div class="card-imge">
+            <img src="./صور الاقسام/نضم تحكم.jpg" alt="">
+          </div>
+          <div class="card-info">
+            <h4 class="card-p"> <span > نظم تحكم</span></h4>
+            <strong class="card-title">
+              <span> <strong></strong> </span>
+              <a href="./صفحة نظم تحكم/Systems.html" class="card-lenk" target="_blank">اظغط هنا</a>
+            </strong>
+          </div>
+        </div>
+        
+        
+        <div class="card">
+          <div class="card-imge">
+            <img src="./صور الاقسام/هندسة.jpg" alt="">
+          </div>
+          <div class="card-info">
+            <h4 class="card-p"> <span > هندسة الحاسوب</span></h4>
+            <strong class="card-title">
+              <span><strong></strong> </span>
+              <a href="./صفحة هندسة الحاسوب/Eng.html" class="card-lenk" target="_blank">اظغط هنا</a>
+            </strong>
+          </div>
+        </div>
+        
+        
+        <div class="card">
+          <div class="card-imge">
+            <img src="./صور الاقسام/IT.jpg" alt="">
+          </div>
+          <div class="card-info">
+            <h4 class="card-p"> <span>تقنية المعلومات</span></h4>
+            <strong class="card-title">
+              <span> <strong></strong> </span>
+              <a href="./صفحة تقنية المعلومات/IT.html" target="_blank" class="card-lenk">اظغط هنا</a>
+            </strong>
+          </div>
+        </div>
+
+        
+        <div class="card">
+          <div class="card-imge">
+            <img src="./صور الاقسام/كهرباء.jpg" alt="">
+          </div>
+          <div class="card-info">
+            <h4 class="card-p"> <span></span> قدرة كهرباء</h4>
+            <strong class="card-title">
+              <span> <strong></strong> </span>
+              <a href="./صفحة قدرة الكهرباء/Elect.html" class="card-lenk" target="_blank">اظغط هنا</a>
+            </strong>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </body>
+
+  <script>
+
+    const mean = document.querySelector('.mean');
+    const toggle = document.getElementById('toggle');
+
+    toggle.onclick = function () {
+      mean.classList.toggle('active');
+    }
+
+
+    // start img
+
+    function chanenImg(img) {
+      var singleImg = document.querySelector('#singleImg');
+      singleImg.setAttribute('src', img)
+    }
+
+// End img
+
+
+  </script>
+
+</html>

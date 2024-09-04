@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Eng.css">
+    <title>صفحة  هندسة الحاسوب</title>
+</head>
+<body>
+    
+      
+    
+        <header>
+          <div class="logo">
+            <img src="../صور4/الشعار.jpg" alt="">
+          </div>
+          <nav>
+            <ul class="mean">
+              <li><a href="./tick tok/index.html"  target="_blank">الصحفحة الرئيسة</a></li>
+              <li><a href="./tick tok/movie/movie.html"target="_blank">افلام الحاسوب</a></li>
+              <li><a href="./tick tok/التخصصات/porgrame2.html" target="_blank">التخصصا</a></li>
+              <li><a href="./tick tok/index.html"  target="_blank">الاقسام</a></li>
+            </ul>
+            <img src="../صور4/1.png" id="toggle" alt="">
+          </nav>
+        </header>
+    
+    
+        <section class="h">
+          <h2 class="title"> هندسة الحاسوب</h2>
+          <div class="content">
+            <div class="card">
+              <div class="card-imge">
+                <img src="./هندسة الحاسوب  صور/كمبيوتر.jpg" alt="">
+              </div>
+              <div class="card-info">
+                <h4 class="card-p"> <span > مهندس كمبيوتر</span></h4>
+                <strong class="card-title">
+                  <span> <strong></strong> </span>
+                  <a href="./مهندس الكمبيوتر/مهندس كميوتر/ttm.html" class="card-lenk" target="_blank">اظغط هنا</a>
+                </strong>
+              </div>
+            </div>
+            
+            
+            <div class="card">
+              <div class="card-imge">
+                <img src="./هندسة الحاسوب  صور/الالكترونيات.jpg" alt="">
+              </div>
+              <div class="card-info">
+                <h4 class="card-p"> <span > هندسة الالكترونات </span></h4>
+                <strong class="card-title">
+                  <span><strong></strong> </span>
+                  <a href="./هندسة الاكترونات/هندسة الاكتروتات/ttm.html" class="card-lenk" target="_blank">اظغط هنا</a>
+                </strong>
+              </div>
+            </div>
+            
+            
+            <div class="card">
+              <div class="card-imge">
+                <img src="./هندسة الحاسوب  صور/صيانة.jpg" alt="">
+              </div>
+              <div class="card-info">
+                <h4 class="card-p"> <span> صيانة الحاسوب</span></h4>
+                <strong class="card-title">
+                  <span> <strong></strong> </span>
+                  <a href="./صيانة الحاسوب/صيانة الحاسوب/ttm.html" target="_blank" class="card-lenk">اظغط هنا</a>
+                </strong>
+              </div>
+            </div>
+    
+            
+            <div class="card">
+              <div class="card-imge">
+                <img src="./هندسة الحاسوب  صور/تصميم.jpg" alt="">
+              </div>
+              <div class="card-info">
+                <h4 class="card-p"> <span></span> تصميم وتطوير الاجهزة</h4>
+                <strong class="card-title">
+                  <span> <strong></strong> </span>
+                  <a href="./تصميم و تطوير االاجهزة/تصميم و تطوير لاجهزة/ttm.html" class="card-lenk" target="_blank">اظغط هنا</a>
+                </strong>
+              </div>
+            </div>
+    
+          </div>
+        </section>
+    
+      
+    
+      <script>
+    
+        const mean = document.querySelector('.mean');
+        const toggle = document.getElementById('toggle');
+    
+        toggle.onclick = function () {
+          mean.classList.toggle('active');
+        }
+    
+    
+        // start img
+    
+        function chanenImg(img) {
+          var singleImg = document.querySelector('#singleImg');
+          singleImg.setAttribute('src', img)
+        }
+    
+    // End img
+    
+    
+      </script>
+    
+    
+</body>
+</html>
